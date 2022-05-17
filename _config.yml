@@ -1,6 +1,4 @@
 theme: jekyll-theme-leap-day
 
-title: Jenkins in Docker
-
-github:
-  is_project_page: false
+name: ""
+title: null

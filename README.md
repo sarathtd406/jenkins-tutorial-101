@@ -1,8 +1,17 @@
-## Welcome to GitHub Pages
+## Jenkins tutorial for beginners
 
-You can use the [editor on GitHub](https://github.com/sarathtd406/jenkins-tutorial-101/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+#### Let's get started !!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 1. Download Jenkins docker image
+
+First, let us download the offical jenkins docker image from docker hub website [Docker Hub](https://hub.docker.com/search?q=jenkins)
+
+As the Jenkins official Docker image is deprecated, we need to use the next docker image from the search list. This jenkins/jenkins image is maintained by Jenkins community and continuously updated.
+
+<img width="1214" alt="image" src="https://user-images.githubusercontent.com/84066151/168812272-93ef9384-8d16-4364-8474-227ef813978b.png">
+
+Direct link to download jenkins docker image. [jenkins/jenkins](https://hub.docker.com/r/jenkins/jenkins)
+
 
 ### Markdown
 

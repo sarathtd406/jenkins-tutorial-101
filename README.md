@@ -12,7 +12,7 @@ As the Jenkins official Docker image is deprecated, we need to use the next dock
 
 Direct link to jenkins docker image. [jenkins/jenkins](https://hub.docker.com/r/jenkins/jenkins)
 
-### Start Jenkins Docker Container
+### Start Docker Container
 
 We can start Jenkins container using below command. Before that, **let's understand the command**.
 
@@ -59,7 +59,7 @@ cda0edfd1a300d9947e0a9369fc1317733f7f4324d1f27e1d4fc42e6b0d52167
 
 ```
 
-### Verify Jenkins container status
+### Verify container status
 
 Use ```docker ps``` command to list the running docker containers. If the container is not listed, use ```docker ps -a``` command to show all running and stopped containers.
 
@@ -72,7 +72,7 @@ cda0edfd1a30   jenkins/jenkins:lts   "/sbin/tini -- /usr/…"   11 minutes ago  
 
 ```
 
-### Verify Jenkins container logs
+### Verify container logs
 
 Use ```docker logs <CONTAINER ID>``` command to fetch the logs of a container.
 
@@ -110,7 +110,7 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 **Here in above logs you can see that jenkins has started and initialized successfully and generated a configuration password to proceed further.**
 
 
-### Login to Jenkins localhost
+### Login to Jenkins
 
 Let's open up the browser and type ```localhost:8080```. This is the port we exposed our jenkins container.
 
@@ -119,8 +119,51 @@ Copy and paste the password generated during jenkins initialization under Admini
 <img width="1150" alt="image" src="https://user-images.githubusercontent.com/84066151/168865737-8c99294f-21d0-4104-a89c-2369507ef4de.png">
 
 
-###  Setup Jenkins [Getting Started]
+###  Getting Started Jenkins
 
+Now, we are in the Jenkins Getting Started page as shown below. Let's select **Install suggested plugins** by jenkins community. 
+
+Even you can know the jenkins version mentioned at the bottom of this page. **Version - Jenkins 2.332.3**
+
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/84066151/168869366-a98a7bc5-e7b7-4d7e-8d72-96ebb194b5cc.png">
+
+**Wait until the plugins are installed. **
+
+<img width="1177" alt="image" src="https://user-images.githubusercontent.com/84066151/168870697-e0ce6139-5ae4-4154-9776-2e4d9a379602.png">
+
+We can install other plugins later as well.
+
+
+### Create Admin user 
+
+As shown in below image,
+
+1. Enter username
+2. Enter password
+3. Enter full name
+4. Enter email id
+
+Click on **Save and Continue**
+
+<img width="1155" alt="image" src="https://user-images.githubusercontent.com/84066151/168871607-3a951b2a-6f1b-4c3a-9efd-f7d1b3041498.png">
+
+
+### Set Instance URL
+
+Let us leave the default URL setting and click on **Save and Finish**
+
+<img width="1133" alt="image" src="https://user-images.githubusercontent.com/84066151/168872166-615320ce-61db-41a7-8ef9-18a91b17ccf4.png">
+
+### Ready to use
+
+Click on **Start using Jenkins**
+
+<img width="1157" alt="image" src="https://user-images.githubusercontent.com/84066151/168872400-fac7f418-b78f-4f8d-afe1-b1aaa9870859.png">
+
+
+**Welcome to Jenkins**
+
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/84066151/168872577-6dbdf5ef-f511-4828-b0fd-604bd408efb9.png">
 
 
 ### Markdown

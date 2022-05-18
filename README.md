@@ -1,4 +1,7 @@
-## Jenkins tutorial for beginners
+## Jenkins with CI/CD pipeline
+
+#### Learn how to setup jenkins container, create CI/CD pipeline with Git repository, commit code to Git and trigger build.
+
 
 #### Let's get started !!
 
